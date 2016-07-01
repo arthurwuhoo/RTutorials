@@ -24,5 +24,7 @@ hist(oswego$sex) #expect to see 1 and 2 but also see a -1. Let's convert that to
 oswego$sex[oswego$sex==-1] <- 1
 oswego$sex <- factor(oswego$sex, labels = c("Female","Male"))
 
+# 3)
+# After you’ve finished making these three commits, push your changes to Github. Check your 
+# GitHub repository to make sure that the changes have been applied.
 
-# After you’ve finished making these three commits, push your changes to Github. Check your GitHub # repository to make sure that the changes have been applied.
